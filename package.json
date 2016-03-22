@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack-server": "webpack-dev-server --hot --progress --colors",
+    "webpack-server": "webpack-dev-server --hot --progress --colors --port 7575",
     "web-server": "http-server -p 3000 .",
     "start": "npm run webpack-server & npm run web-server"
   },
@@ -36,5 +36,8 @@
     "url-loader": "^0.5.6",
     "webpack": "^1.11.0",
     "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6"
   }
 }
