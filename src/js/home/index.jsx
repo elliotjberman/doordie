@@ -10,10 +10,9 @@ export default class Home extends Component {
     }
 
     render() {
-
         return (
         	<div>
-        	<nav className="navbar navbar-default" style={{backgroundColor: "#97D87F"}}>
+        	<nav className="navbar navbar-default navbar-fixed-top" style={{backgroundColor: "#97D87F"}}>
         	  <div className="container-fluid">
         	    <div className="navbar-header">
         	      <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -26,10 +25,12 @@ export default class Home extends Component {
         	    </div>
         	    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         	      <ul style={{color: "white !important"}} className="nav navbar-nav">
-        	        <li className="active"><a href="#">Link <span className="sr-only">(current)</span></a></li>
-        	        <li><a style={{color: "white !important"}} href="#">Link</a></li>
-        					<li><a style={{color: "white !important"}} href="#">Link</a></li>
-        					<li><a style={{color: "white !important"}} href="#">Link</a></li>
+        	        <li className="active"><a href="#">Home<span className="sr-only">(current)</span></a></li>
+        	        <li><a style={{color: "white !important"}} href="#about">About Us</a></li>
+        					<li><a style={{color: "white !important"}} href="#advantages">Advantages</a></li>
+									<li><a style={{color: "white !important"}} href="#team">Team</a></li>
+									<li><a style={{color: "white !important"}} href="#press">Press</a></li>
+        					<li><a style={{color: "white !important"}} href="#contact">Contact</a></li>
         	      </ul>
         	    </div>
         	  </div>
