@@ -10,7 +10,7 @@ export default class AboutUs extends Component {
     render() {
         return (
               <div id="about" className="full-screen">
-                  <div className="col-xs-12 col-sm-5 col-sm-offset-1">
+                  <div className="col-xs-12 col-sm-4 col-sm-offset-1">
 										<h1>Overview</h1>
                           <p className="about-copy">
                                   Westgate Health Campus is one of the largest comprehensive healthcare developments in the Southwest.
@@ -22,7 +22,7 @@ export default class AboutUs extends Component {
                                    organized about complementary points of patient care, as well as related areas of research and education, and supplemental retail and pharmacy.
                           </p>
                   </div>
-									<div className="col-sm-4 col-sm-offset-1">
+									<div className="col-sm-5 col-sm-offset-1">
 										<img id="birdpic" src={aerial} />
 									</div>
 
