@@ -7,7 +7,6 @@ export default class AboutUs extends Component {
     }
 
     render() {
-      console.log("HERE");
         return (
               <div>
                   <div className="col-xs-12">
