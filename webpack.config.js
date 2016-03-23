@@ -26,11 +26,7 @@ module.exports = {
             {
                 test: /\.js.*$/,
                 loader: 'babel',
-                exclude: /node_modules/,
-                query:
-                      {
-                        presets:['es2015','react']
-                      }
+                exclude: /node_modules/
             },
             {
                 test: /\.scss$/,

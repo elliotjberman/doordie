@@ -41,6 +41,7 @@
   "dependencies": {
     "autoprefixer": "^6.3.4",
     "babel": "^6.5.2",
+    "babel-preset-react-hmre": "^1.1.1",
     "bootstrap": "^3.3.6",
     "express": "^4.13.4",
     "jquery": "^2.2.2",
