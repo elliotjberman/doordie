@@ -1,19 +1,33 @@
+var webpack = require("webpack");
+var autoprefixer = require('autoprefixer');
+
 module.exports = {
-    entry: getEntrySources(['./src/js/entry.js']),
-    output: {
-        publicPath: 'http://localhost:7575/',
-        filename: 'build/bundle.js'
+    resolve: {
+        modulesDirectories: ["node_modules", "src", "."],
+        extensions: ['', '.js', '.jsx']
     },
-    devtool: 'eval',
+    entry: __dirname + '/src/js/entry.jsx',
+    output: {
+        path: __dirname + "/build/",
+        filename: "bundle.js",
+        publicPath: "/build/"
+    },
+    plugins: [
+        new webpack.NoErrorsPlugin,
+        new webpack.HotModuleReplacementPlugin()
+    ],
+    devtool: 'source-map',
     module: {
-        preLoaders: [
-            {
-                test: /\.jsx?$/,
-                exclude: /(node_modules|bower_components)/,
-                loader: 'source-map'
-            }
-        ],
         loaders: [
+            {
+                test: /\.js.*$/,
+                loader: 'babel',
+                exclude: /node_modules/,
+                query:
+                      {
+                        presets:['es2015','react']
+                      }
+            },
             {
                 test: /\.scss$/,
                 include: /src/,
@@ -30,24 +44,11 @@ module.exports = {
                     'url?limit=8192',
                     'img'
                 ]
-            },
-            {
-                test: /\.jsx?$/,
-                exclude: /(node_modules|bower_components)/,
-                loaders: [
-                    'react-hot',
-                    'babel?presets[]=stage-0,presets[]=react,presets[]=es2015'
-                ]
             }
         ]
+    },
+
+    postcss: function() {
+        return [autoprefixer]
     }
 };
-
-function getEntrySources(sources) {
-    if (process.env.NODE_ENV !== 'production') {
-        sources.push('webpack-dev-server/client?http://localhost:7575');
-        sources.push('webpack/hot/only-dev-server');
-    }
-
-    return sources;
-}
