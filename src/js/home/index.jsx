@@ -1,3 +1,4 @@
+'use strict';
 import React, { Component } from 'react';
 import Bootstrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -9,7 +10,7 @@ export default class Home extends Component {
     }
 
     render() {
-        console.log(AboutUs)
+
         return (
         	<div>
         	<nav className="navbar navbar-default" style={{backgroundColor: "#97D87F"}}>
@@ -33,7 +34,7 @@ export default class Home extends Component {
         	    </div>
         	  </div>
         	</nav>
-        		{AboutUs}
+        		<AboutUs />
         	</div>
         	);
     }
