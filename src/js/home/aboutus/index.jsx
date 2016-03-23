@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import sass from './styles.scss';
 
 export default class AboutUs extends Component {
     constructor() {
@@ -15,7 +16,7 @@ export default class AboutUs extends Component {
                   </div>
 
                   <div className="col-xs-12 col-sm-8 col-md-6">
-                          <p>
+                          <p className="testing">
                                   Westgate Health Campus is one of the largest comprehensive healthcare developments in the Southwest.
                                    With over 200,000 square feet of Class A office space organized in a unique five building circular configuration, it provides a thoroughly modern and integrated healthcare campus.
                                    Based in the burgeoning City of Glendale, it lies at the heart of metropolitan Phoenix, Arizona, and at the crossroads of the main Highway 101N and I-10 corridors.
