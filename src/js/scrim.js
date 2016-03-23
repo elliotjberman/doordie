@@ -4,7 +4,7 @@ var navBarControl = function(){
 	// fade in .navbar
 	$(window).scroll(function () {
 		 // set distance user needs to scroll before we start fadeIn
-			if ($(this).scrollTop() > $("#about").offset().top) {
+			if ($(this).scrollTop() > $("#about").offset().top-51) {
 					$('.navbar').fadeIn(300);
 			} else {
 					$('.navbar').fadeOut(300);
@@ -34,4 +34,5 @@ var smoothScroll = function()
 $(document).ready(function(){
   smoothScroll();
 	navBarControl();
+	$('body').scrollspy({ target: '.navbar' })
 })
