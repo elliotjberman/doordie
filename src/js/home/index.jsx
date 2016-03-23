@@ -9,7 +9,6 @@ export default class Home extends Component {
     }
 
     render() {
-        console.log(AboutUs)
         return (
         	<div>
         	<nav className="navbar navbar-default" style={{backgroundColor: "#97D87F"}}>
