@@ -1,1 +1,12 @@
-body { padding-top: 70px; }
+body { padding-top: 50px; position: relative;}
+
+.full-screen{
+	min-height: 100vh;
+	width: 100%;
+	float: left;
+}
+
+.navbar.navbar-fixed-top{
+	margin-bottom: 0;
+	border: none;
+}
