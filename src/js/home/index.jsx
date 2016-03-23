@@ -8,7 +8,8 @@ import Advantages from './advantages';
 import Team from './team';
 import Press from './press';
 import Contact from './contact';
-import sass from 'css/master.scss'
+import sass from 'css/master.scss';
+import scrim from 'js/scrim.js'
 
 export default class Home extends Component {
     constructor() {
@@ -16,23 +17,23 @@ export default class Home extends Component {
     }
 
     render() {
+				{scrim}
         return (
         	<div>
         	<nav className="navbar navbar-default navbar-fixed-top">
         	  <div className="container-fluid">
         	    <div className="navbar-header">
         	      <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        	        <span className="sr-only">Toggl navigation</span>
+        	        <span className="sr-only">Toggle navigation</span>
         	        <span className="icon-bar"></span>
         	        <span className="icon-bar"></span>
         	        <span className="icon-bar"></span>
         	      </button>
-        	      <a className="navbar-brand" href="#">Westgate Health Campus</a>
         	    </div>
         	    <div id="navbarboy" className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         	      <ul className="nav navbar-nav">
-        	        <li className="active"><a href="#">Home<span className="sr-only">(current)</span></a></li>
-        	        <li><a href="#about">About Us</a></li>
+        	        <li><a href="#home">Home</a></li>
+        	        <li><a href="#about">Overview</a></li>
         					<li><a href="#advantages">Advantages</a></li>
 									<li><a href="#team">Team</a></li>
 									<li><a href="#press">Press</a></li>

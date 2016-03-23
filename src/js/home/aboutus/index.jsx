@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import sass from './styles.scss';
-import birdeye from 'img/birdeye.jpg'
+import aerial from 'img/aerial.jpeg'
 
 export default class AboutUs extends Component {
     constructor() {
@@ -11,6 +11,7 @@ export default class AboutUs extends Component {
         return (
               <div id="about" className="full-screen">
                   <div className="col-xs-12 col-sm-5 col-sm-offset-1">
+										<h1>Overview</h1>
                           <p className="about-copy">
                                   Westgate Health Campus is one of the largest comprehensive healthcare developments in the Southwest.
                                    With over 200,000 square feet of Class A office space organized in a unique five building circular configuration, it provides a thoroughly modern and integrated healthcare campus.
@@ -22,7 +23,7 @@ export default class AboutUs extends Component {
                           </p>
                   </div>
 									<div className="col-sm-4 col-sm-offset-1">
-										<img id="birdpic" src={birdeye} />
+										<img id="birdpic" src={aerial} />
 									</div>
 
                 </div>
