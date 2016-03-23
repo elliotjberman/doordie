@@ -23,10 +23,11 @@ export default class HelloBox extends Component {
         	    </div>
         	    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         	      <ul style={{color: "white !important"}} className="nav navbar-nav">
-        	        <li className="active"><a href="#">Link <span className="sr-only">(current)</span></a></li>
-        	        <li><a style={{color: "white !important"}} href="#">Link</a></li>
-        					<li><a style={{color: "white !important"}} href="#">Link</a></li>
-        					<li><a style={{color: "white !important"}} href="#">Link</a></li>
+        	        <li className="active"><a href="#">Home <span className="sr-only">(current)</span></a></li>
+        	        <li><a style={{color: "white !important"}} href="#">Advantages</a></li>
+        					<li><a style={{color: "white !important"}} href="#">Project Team</a></li>
+        					<li><a style={{color: "white !important"}} href="#">Press</a></li>
+									<li><a style={{color: "white !important"}} href="#">Contact</a></li>
         	      </ul>
         	    </div>
         	  </div>
