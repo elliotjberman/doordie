@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Router, Route, Redirect, browserHistory } from 'react-router';
-import HelloBox from './HelloBox';
+import Home from './home';
 
 render((
     <Router history={browserHistory} >
-    	<Route path="/" component={HelloBox}/>
+    	<Route path="/" component={Home}/>
     </Router>), document.getElementById('root'));
