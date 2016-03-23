@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Bootstrap from 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 
 export default class HelloBox extends Component {
     constructor() {
