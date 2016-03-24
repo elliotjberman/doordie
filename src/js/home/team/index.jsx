@@ -17,6 +17,7 @@ export default class Team extends Component {
         return (
               <div id="team" className="full-screen">
                   <div className="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <h1 className="header">Team</h1>
                         <TeamMember image={kitchell} text={teams.kitchell} />
                         <TeamMember image={BDG} text={teams.BDG} />
                         <TeamMember image={mattson} text={teams.mattson} />

@@ -9,6 +9,7 @@ export default class Advantages extends Component {
     render() {
         return (
         	<div id="advantages" className="full-screen">
+        				<h1 className='header'>Advantages</h1>
 						<div className="col-xs-12 col-sm-10 col-sm-offset-1">
 							<p className="advantage-explanation"><span className="advantage-name">Location </span><br/>
 							Ideal between the established central core of Phoenix and the booming West Valley, with a highly prized work force and growing and diverse patient base.

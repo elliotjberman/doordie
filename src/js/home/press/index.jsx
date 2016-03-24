@@ -10,7 +10,7 @@ export default class Press extends Component {
         return (
               <div id="press" className="full-screen">
                   <div className="col-xs-12">
-                          <h1>Press</h1>
+                        <h1 className='header'>Press</h1>
                   </div>
 
                   <div className="col-xs-12 col-sm-10 col-sm-offset-1">
