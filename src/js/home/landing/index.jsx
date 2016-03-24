@@ -29,7 +29,7 @@ export default class Press extends Component {
 										<h2 id="landing-text-box">An Extraordinary Campus for Healthcare</h2>
 										</div>
 
-
+										<h1 href="#about" id="learn-more">Learn More</h1>
 								</div>
               </div>
                 );
