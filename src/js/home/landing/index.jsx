@@ -25,6 +25,7 @@ export default class Press extends Component {
 
 									<div className="col-xs-12 col-sm-8 col-sm-offset-2">
 										<img id="logo" src={logo} />
+										<h1 id="company-name">Westgate Healthcare Campus</h1>
 										<h2 id="landing-text-box">An Extraordinary Campus for Healthcare</h2>
 										</div>
 

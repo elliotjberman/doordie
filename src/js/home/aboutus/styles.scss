@@ -1,11 +1,21 @@
+$break-sm: 768px;
 #about{
 	padding-top: 30px;
+	@media screen and (min-width: $break-sm){
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	h1{
+		margin-top: 0;
+	}
 }
 .about-copy {
 	text-align: left;
 	font-size: 18px;
+
 }
 #birdpic{
 	width: 100%;
-	margin-top: 80px;
 }
