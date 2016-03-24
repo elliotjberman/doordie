@@ -1,5 +1,5 @@
 $break-sm: 768px;
-#about{
+#about-container{
 	@media screen and (min-width: $break-sm){
 		display: flex;
 		align-items: center;

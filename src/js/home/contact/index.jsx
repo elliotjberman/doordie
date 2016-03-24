@@ -10,7 +10,7 @@ export default class Contact extends Component {
         return (
         	<div id="contact" className="full-screen">
 					<h1 className="header">Contact</h1>
-					<div id="contact-container" className="col-sm-offset-1 col-sm-10 col-xs-12">
+					<div id="contact-container" className="col-sm-offset-1 col-sm-10 col-xs-12 padded-container">
 
 						<div className="col-xs-12 col-sm-4">
 							<p className="contact-info">
