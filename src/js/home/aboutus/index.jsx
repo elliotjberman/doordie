@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import sass from './styles.scss';
-import aerial from 'img/aerial.jpeg'
+import aerial from 'img/aerial.jpeg';
 
 export default class AboutUs extends Component {
     constructor() {
@@ -8,6 +8,7 @@ export default class AboutUs extends Component {
     }
 
     render() {
+
         return (
               <div id="about" className="full-screen">
                   <div className="col-xs-12 col-sm-4 col-sm-offset-1">

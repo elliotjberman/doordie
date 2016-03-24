@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
+import kitchell from 'img/kitchell.svg';
+import BDG from 'img/BDG.svg';
+import mattson from 'img/mattson.jpg';
+import newmark from 'img/newmark.jpg';
 import sass from './styles.scss';
+import TeamMember from './team-member';
+import teams from 'teams.json';
+
 
 export default class Team extends Component {
     constructor() {
@@ -9,21 +16,11 @@ export default class Team extends Component {
     render() {
         return (
               <div id="team" className="full-screen">
-                  <div className="col-xs-12">
-                          <h1>Westgate Health Campus</h1>
-                          <h2>An Extraordinary Campus for Healthcare</h2>
-                  </div>
-
-                  <div className="col-xs-12 col-sm-8 col-md-6">
-                          <p className="testing">
-                                  Westgate Health Campus is one of the largest comprehensive healthcare developments in the Southwest.
-                                   With over 200,000 square feet of Class A office space organized in a unique five building circular configuration, it provides a thoroughly modern and integrated healthcare campus.
-                                   Based in the burgeoning City of Glendale, it lies at the heart of metropolitan Phoenix, Arizona, and at the crossroads of the main Highway 101N and I-10 corridors.
-                                   Within a short distance of the three largest health systems in Arizona, and proximity to major access including highways as well as Glendale Ave.,
-                                   it is an ideal location for a transformative healthcare campus, and an economic engine for Glendale and the West Valley.
-                                   Nearby are major entertainment and shopping venues to complement the campus which offers both condominium and rental space,
-                                   organized about complementary points of patient care, as well as related areas of research and education, and supplemental retail and pharmacy.
-                          </p>
+                  <div className="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <TeamMember image={kitchell} text={teams.kitchell} />
+                        <TeamMember image={BDG} text={teams.BDG} />
+                        <TeamMember image={mattson} text={teams.mattson} />
+                        <TeamMember image={newmark} text={teams.newmark} />
                   </div>
                 </div>
                 );
