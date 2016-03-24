@@ -42,14 +42,14 @@ var linkAnimation = function(){
     } // this for loop fills the aArray with attribute href values
 
       var hashCheck = function(){
-        var windowPos = Math.round($(window).scrollTop()); // get the offset of the window from the top of page
-        var windowHeight = Math.round($(window).height()); // get the height of the window
-        var docHeight = Math.round($(document).height());
+        var windowPos = Math.floor($(window).scrollTop()); // get the offset of the window from the top of page
+        var windowHeight = Math.floor($(window).height()); // get the height of the window
+        var docHeight = Math.floor($(document).height());
 
         for (var i=0; i < aArray.length; i++) {
             var theID = aArray[i];
-            var divPos = Math.round($(theID).offset().top); // get the offset of the div from the top of page
-            var divHeight = Math.round($(theID).height()); // get the height of the div in question
+            var divPos = Math.floor($(theID).offset().top); // get the offset of the div from the top of page
+            var divHeight = Math.floor($(theID).height()); // get the height of the div in question
             if (windowPos >= (divPos - 50) && windowPos < ((divPos + divHeight - 50))) {
 							console.log("divpos : " + divPos)
 							console.log("windowpos : " + windowPos)
