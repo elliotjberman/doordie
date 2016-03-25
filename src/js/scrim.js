@@ -19,10 +19,10 @@ var smoothScroll = function()
 
 		var target = this.hash;
 		var $target = $(target);
-
+		console.log($target.offset())
 		$('html, body').stop().animate({
 
-			'scrollTop': $target.offset().top-50
+			'scrollTop': Math.ceil($target.offset().top-50)
 
 		}, 600, 'swing', function() {
 
@@ -51,9 +51,6 @@ var linkAnimation = function(){
             var divPos = Math.floor($(theID).offset().top); // get the offset of the div from the top of page
             var divHeight = Math.floor($(theID).height()); // get the height of the div in question
             if (windowPos >= (divPos - 50) && windowPos < ((divPos + divHeight - 50))) {
-							console.log("divpos : " + divPos)
-							console.log("windowpos : " + windowPos)
-							console.log("divHeight : " + divHeight)
                 $("a[href='" + theID + "']").parent().addClass("active", 1000);
             } else {
                 $("a[href='" + theID + "']").parent().removeClass("active", 1000);
