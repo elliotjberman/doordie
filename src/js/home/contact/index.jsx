@@ -45,7 +45,11 @@ export default class Contact extends Component {
 
 					</div>
 					<footer>
-							<h1>Scrim</h1>
+							<h1>
+								&#169; 2016 101 W. Healthcare LLC<span><br/></span>
+								NWC 99th Avenue and Glendale Avenue<span><br/></span>
+								Glendale, AZ 85370
+							</h1>
 					</footer>
       	</div>);
     }
