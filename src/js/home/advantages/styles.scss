@@ -2,12 +2,17 @@
 	background-color: #D8EFD8;
 }
 .advantage-explanation{
-	font-size: 24px;
-	line-height: 40px;
+	font-size: 18px;
+	line-height: 28px;
+	color: black;
+
+	@media screen and (max-width: 767px){
+		text-align: center;
+	}
 }
 .advantage-name{
 	font-size: 2.5em;
-	color: black;
-	font-weight: 700;
+	color: #2A9000;
+	font-weight: 300;
 	line-height: initial;
 }

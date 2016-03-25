@@ -30,7 +30,7 @@ export default class Press extends Component {
 										</div>
 
 									<div id="learn-more">
-										<a href="#about">Learn More</a>	
+										<a href="#about">Learn More</a>
 									</div>
 								</div>
               </div>

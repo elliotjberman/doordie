@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack-server": "webpack --watch --progress --colors --port 7575",
-    "web-server": "http-server -p 3000 .",
-    "start": "npm run webpack-server & npm run web-server",
-    "startnode": "node server.js"
+    "build": "node node_modules/webpack/bin/webpack.js --colors --progress -p",
+    "start": "node index.js",
+    "startdev": "node server.js"
   },
   "keywords": [
     "demo"

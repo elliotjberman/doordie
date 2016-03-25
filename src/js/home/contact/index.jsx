@@ -12,31 +12,31 @@ export default class Contact extends Component {
 					<h1 className="header">Contact</h1>
 					<div id="contact-container" className="col-sm-offset-1 col-sm-10 col-xs-12 padded-container">
 
-						<div className="col-xs-12 col-sm-4">
+						<div className="col-xs-12 col-md-4">
 							<p className="contact-info">
-								TRISHA TALBOT<br/>
+								<b>TRISHA TALBOT</b><br/>
 								Newmark Grubb Knight Frank<br/>
 								Managing Director<br/>
 								Global Healthcare Services<br/>
 								602.952.3880<br/>
-								ttalbot@ngkf.com<br/>
+								<a href="mailto:ttalbot@ngkf.com">ttalbot@ngkf.com</a><br/>
 							</p>
 						</div>
 
-						<div className="col-xs-12 col-sm-4">
+						<div className="col-xs-12 col-md-4">
 							<p className="contact-info">
-								KATHLEEN MORGAN<br/>
+								<b>KATHLEEN MORGAN</b><br/>
 								Newmark Grubb Knight Frank<br/>
 								Managing Director<br/>
 								Global Healthcare Services<br/>
 								602.952.3815<br/>
-								kmorgan@ngkf.com<br/>
+								<a href="mailto:kmorgan@ngkf.com">kmorgan@ngkf.com</a><br/>
 							</p>
 						</div>
 
-						<div className="col-xs-12 col-sm-4">
+						<div className="col-xs-12 col-md-4">
 							<p className="contact-info">
-								GARTH HOGAN<br/>
+								<b>GARTH HOGAN</b><br/>
 								Newmark Grubb Knight Frank<br/>
 								Executive Managing Director<br/>
 								Global Healthcare Services<br/>
@@ -44,7 +44,9 @@ export default class Contact extends Component {
 						</div>
 
 					</div>
-
-        	</div>);
+					<footer>
+							<h1>Scrim</h1>
+					</footer>
+      	</div>);
     }
 }

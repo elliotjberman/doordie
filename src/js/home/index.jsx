@@ -9,7 +9,8 @@ import Team from './team';
 import Press from './press';
 import Contact from './contact';
 import sass from 'css/master.scss';
-import scrim from 'js/scrim.js'
+import scrim from 'js/scrim.js';
+import logo from 'img/logo.png'
 
 export default class Home extends Component {
     constructor() {

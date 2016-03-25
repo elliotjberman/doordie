@@ -12,8 +12,8 @@ body {  position: relative;}
 	position: relative;
 
 	.padded-container{
-		padding-top: 40px;
-		padding-bottom: 40px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 }
 
@@ -35,5 +35,6 @@ body {  position: relative;}
 .header {
 	font-size: 70px;
 	text-align: center;
-	padding-bottom: 60px;
+	padding-bottom: 20px;
+	font-weight: 300;
 }
