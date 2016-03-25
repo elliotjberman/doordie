@@ -23,6 +23,8 @@ export default class Home extends Component {
         	<div>
         	<nav className="navbar navbar-default navbar-fixed-top">
         	  <div className="container-fluid">
+							<a className="navbar-brand left" href="#home"><img src={logo} /></a>
+							<a className="navbar-brand pull-right right" href="#home"><img src={logo} /></a>
         	    <div className="navbar-header">
         	      <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         	        <span className="sr-only">Toggle navigation</span>
@@ -30,6 +32,7 @@ export default class Home extends Component {
         	        <span className="icon-bar"></span>
         	        <span className="icon-bar"></span>
         	      </button>
+
         	    </div>
         	    <div id="navbarboy" className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         	      <ul className="nav navbar-nav">

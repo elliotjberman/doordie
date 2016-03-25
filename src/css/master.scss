@@ -38,3 +38,18 @@ body {  position: relative;}
 	padding-bottom: 20px;
 	font-weight: 300;
 }
+.navbar-brand{
+	img{
+		height: 100%;
+	}
+}
+.navbar-brand.pull-right{
+	@media screen and (max-width: 767px){
+		display: none;
+	}
+}
+.navbar-brand.left{
+	@media screen and (min-width: 768px){
+		display: none;
+	}
+}
