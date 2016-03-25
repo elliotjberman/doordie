@@ -1,3 +1,30 @@
 #press{
 	background-color: #CBDFF9;
 }
+
+.links {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	font-weight: 100;
+	line-height: 40px;
+	.link-top {
+		font-size: 40px;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.link {
+		padding-top: 40px;
+		font-size: 40px;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.title {
+		font-size: 20px;
+	}
+	.date {
+		font-size: 20px;
+	}
+}
