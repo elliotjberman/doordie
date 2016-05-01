@@ -17,7 +17,7 @@ export default class Team extends Component {
     render() {
         return (
               <div id="team" className="full-screen">
-                  <div className="col-xs-12 col-sm-10 col-sm-offset-1">
+                  <div id='team-container' className="col-xs-12 col-sm-10 col-sm-offset-1">
                         <h1 className="header">Team</h1>
                         <TeamMember image={BDG} text={teams.BDG} />
                         <TeamMember image={kitchell} text={teams.kitchell} />
