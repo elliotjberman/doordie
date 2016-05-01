@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import kitchell from 'img/kitchell.svg';
 import BDG from 'img/BDG.svg';
 import mattson from 'img/mattson.jpg';
-import newmark from 'img/newmark.jpg';
+import newmark from 'img/newmark.png';
 import triarc from 'img/triarc.jpg';
 import sass from './styles.scss';
 import TeamMember from './team-member';
@@ -23,7 +23,7 @@ export default class Team extends Component {
                         <TeamMember image={kitchell} text={teams.kitchell} />
                         <TeamMember image={mattson} text={teams.mattson} />
                         <TeamMember image={newmark} text={teams.newmark} />
-												<TeamMember image={triarc} text={teams.triarc} />
+						<TeamMember image={triarc} text={teams.triarc} />
                   </div>
                 </div>
                 );
