@@ -133,7 +133,7 @@ export default class AboutUs extends Component {
 															 it is an ideal location for a transformative healthcare campus, and an economic engine for Glendale and the West Valley.
 															 Nearby are major entertainment and shopping venues to complement the campus, which offers both condominium and rental space. The campus is organized around complementary points of patient care and related areas of research and education, as well as supplemental retail and pharmacy. Owner-financing for condo purchase and tenant improvements available, as well as joint-venture opportunities.
 											</p>
-											<a href="http://flyers.ngkf.com/NewMarkContent/Items/70139/99th_Ave_&_Glendale_NWC_(Westgate_Healthcare_Campus)_Brochure_E.pdf" className="about-copy">
+											<a id='brochure-link' href="http://flyers.ngkf.com/NewMarkContent/Items/70139/99th_Ave_&_Glendale_NWC_(Westgate_Healthcare_Campus)_Brochure_E.pdf" className="about-copy">
 												See Brochure
 											</a>
 										</div>
@@ -141,7 +141,7 @@ export default class AboutUs extends Component {
 											<img id="birdpic" src={newTop} />
 										</div>
 									</div>
-									<div id="about-container">
+									<div id="about-container-2">
 										<div className="col-xs-12 col-md-4 col-md-offset-1">
 											<p className="about-copy">
 												<a role='button' data-toggle="modal" data-target="#a">
