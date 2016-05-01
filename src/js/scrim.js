@@ -19,7 +19,6 @@ var smoothScroll = function()
 
 		var target = this.hash;
 		var $target = $(target);
-		console.log($target.offset())
 		$('html, body').stop().animate({
 
 			'scrollTop': Math.ceil($target.offset().top-50)
