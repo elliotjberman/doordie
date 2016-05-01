@@ -12,7 +12,7 @@ export default class Contact extends Component {
 					<h1 className="header">Contact</h1>
 					<div id="contact-container" className="col-sm-offset-1 col-sm-10 col-xs-12 padded-container">
 
-						<div className="col-xs-12 col-md-4">
+						<div className="col-xs-12 col-md-6">
 							<p className="contact-info">
 								<b>TRISHA TALBOT</b><br/>
 								Newmark Grubb Knight Frank<br/>
@@ -23,7 +23,7 @@ export default class Contact extends Component {
 							</p>
 						</div>
 
-						<div className="col-xs-12 col-md-4">
+						<div className="col-xs-12 col-md-6">
 							<p className="contact-info">
 								<b>KATHLEEN MORGAN</b><br/>
 								Newmark Grubb Knight Frank<br/>
@@ -33,16 +33,6 @@ export default class Contact extends Component {
 								<a href="mailto:kmorgan@ngkf.com">kmorgan@ngkf.com</a><br/>
 							</p>
 						</div>
-
-						<div className="col-xs-12 col-md-4">
-							<p className="contact-info">
-								<b>GARTH HOGAN</b><br/>
-								Newmark Grubb Knight Frank<br/>
-								Executive Managing Director<br/>
-								Global Healthcare Services<br/>
-							</p>
-						</div>
-
 					</div>
 					<footer>
 							<h1>
