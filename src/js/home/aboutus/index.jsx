@@ -176,7 +176,7 @@ export default class AboutUs extends Component {
 											</p>
 
 										</div>
-										<div className="col-md-10 col-md-offset-1">
+										<div className="col-xs-12 col-md-10 col-md-offset-1">
 											<img id="birdpic2" src={aerial} />
 										</div>
 									</div>
