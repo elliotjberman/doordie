@@ -1,10 +1,10 @@
 $break-sm: 768px;
-#about-container, #about-container-2{
+#about-container{
 
 	#birdpic{
 		margin-top: 40px;
 	}
-	
+
 	@media screen and (min-width: $break-sm){
 		display: flex;
 		align-items: center;
@@ -33,15 +33,24 @@ $break-sm: 768px;
 		margin-top: 40px;
 		margin-bottom: 40px;
 		text-align: center;
+		font-size: 24px;
 	}
 	@media screen and (min-width: $break-sm){
+
 		margin-top: 80px;
+
 		.about-copy{
+			display: flex;
+			justify-content: space-around;
 			margin: 0 auto;
-			text-align: left;
 		}
+
+		#birdpic2{
+			margin-bottom: 40px;
+		}
+
 	}
 }
-#birdpic{
+#birdpic, #birdpic2{
 	width: 100%;
 }

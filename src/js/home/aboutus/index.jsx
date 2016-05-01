@@ -124,7 +124,7 @@ export default class AboutUs extends Component {
 								<div className="padded-container">
 									<h1 className='header'>Overview</h1>
 									<div id="about-container">
-										<div className="col-xs-12 col-md-4 col-md-offset-1">
+										<div className="col-xs-12 col-sm-6 col-sm-offset-1 col-md-4 col-md-offset-1">
 											<p className="about-copy">
 															Westgate Healthcare Campus is one of the largest comprehensive healthcare developments in the Southwest.
 															 With over 200,000 square feet of Class A office space organized in a unique five building circular configuration, it provides a thoroughly modern and integrated healthcare campus.
@@ -137,47 +137,47 @@ export default class AboutUs extends Component {
 												See Brochure
 											</a>
 										</div>
-										<div className="col-md-5 col-md-offset-1">
+										<div className="col-xs-12 col-sm-5 col-md-5 col-md-offset-1">
 											<img id="birdpic" src={newTop} />
 										</div>
 									</div>
 									<div id="about-container-2">
-										<div className="col-xs-12 col-md-4 col-md-offset-1">
+										<div className="col-xs-12 col-md-10 col-md-offset-1">
 											<p className="about-copy">
 												<a role='button' data-toggle="modal" data-target="#a">
 													Building A<br/>
-													(Under construction)
+
 												</a>
 												<br/><br/>
 
 												<a role='button' data-toggle="modal" data-target="#b">
 													Building B<br/>
-													2017 Delivery
+
 												</a>
 												<br/><br/>
 
 												<a role='button' data-toggle="modal" data-target="#c">
 													Building C<br/>
-													Pre-leasing
+
 												</a>
 												<br/><br/>
 
 												<a role='button' data-toggle="modal" data-target="#d">
 													Building D<br/>
-													Future Delivery
+
 												</a>
 												<br/><br/>
 
 												<a role='button' data-toggle="modal" data-target="#e">
 													Building E<br/>
-													2017 Delivery
+
 												</a>
 
 											</p>
 
 										</div>
-										<div className="col-md-5 col-md-offset-1">
-											<img id="birdpic" src={aerial} />
+										<div className="col-md-10 col-md-offset-1">
+											<img id="birdpic2" src={aerial} />
 										</div>
 									</div>
 								</div>
