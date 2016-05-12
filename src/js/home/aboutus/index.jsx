@@ -68,7 +68,7 @@ export default class AboutUs extends Component {
 											Floor 2: Leased<br />
 											Floor 3: 2000 - 22,500 SF available<br />
 											Floor 4: 2000 - 22,500 SF available<br /><br />
-											<a href='http://www.loopnet.com/Listing/19681490/9970-W-Glendale-Ave-Glendale-AZ/' target='_blank'>LoopNet Listing</a>
+										<a href='http://www.loopnet.com/Listing/19681490/9970-W-Glendale-Ave-Glendale-AZ/' target='_blank'>LoopNet Listing</a><br/>
 											<a href='http://www.showcase.com/property/9970-W-Glendale-Avenue/Glendale/Arizona/5565128' target='_blank'>Showcase Listing</a>
 										</div>
 									</div>

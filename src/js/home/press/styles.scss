@@ -15,9 +15,13 @@
 		}
 	}
 	.link {
+		text-decoration: none !important;
 		padding-top: 40px;
 		font-size: 40px;
 		&:hover {
+			text-decoration: none !important;
+		}
+		&:focus {
 			text-decoration: none !important;
 		}
 		@media screen and (max-width: 767px){
