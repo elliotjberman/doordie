@@ -133,7 +133,7 @@ export default class AboutUs extends Component {
 															 it is an ideal location for a transformative healthcare campus, and an economic engine for Glendale and the West Valley.
 															 Nearby are major entertainment and shopping venues to complement the campus, which offers both condominium and rental space. The campus is organized around complementary points of patient care and related areas of research and education, as well as supplemental retail and pharmacy. Owner-financing for condo purchase and tenant improvements available, as well as joint-venture opportunities.
 											</p>
-											<a id='brochure-link' href="http://flyers.ngkf.com/NewMarkContent/Items/70139/99th_Ave_&_Glendale_NWC_(Westgate_Healthcare_Campus)_Brochure_E.pdf" className="about-copy">
+											<a id='brochure-link' href="https://www.dropbox.com/s/f7s6m0e0tgsslow/Westgate%20Healthcare%20Campus%20Brochure.pdf?dl=1" className="about-copy">
 												See Brochure
 											</a>
 										</div>
